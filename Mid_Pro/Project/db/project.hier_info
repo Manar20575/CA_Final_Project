@@ -1,0 +1,202 @@
+|Unit
+clk => clk.IN1
+updown => updown.IN1
+reset => reset.IN2
+push => push.IN1
+teller[0] => teller[0].IN1
+teller[1] => teller[1].IN1
+teller[2] => teller[2].IN1
+full << flags:f.port2
+empty << flags:f.port1
+alarm << UpDown_counter:counter.port4
+display1[0] << seg:d1.port1
+display1[1] << seg:d1.port1
+display1[2] << seg:d1.port1
+display1[3] << seg:d1.port1
+display1[4] << seg:d1.port1
+display1[5] << seg:d1.port1
+display1[6] << seg:d1.port1
+display2[0] << seg:d2.port1
+display2[1] << seg:d2.port1
+display2[2] << seg:d2.port1
+display2[3] << seg:d2.port1
+display2[4] << seg:d2.port1
+display2[5] << seg:d2.port1
+display2[6] << seg:d2.port1
+display3[0] << seg:d3.port1
+display3[1] << seg:d3.port1
+display3[2] << seg:d3.port1
+display3[3] << seg:d3.port1
+display3[4] << seg:d3.port1
+display3[5] << seg:d3.port1
+display3[6] << seg:d3.port1
+
+
+|Unit|slowClock:divi
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+clk => count[6].CLK
+clk => count[7].CLK
+clk => count[8].CLK
+clk => count[9].CLK
+clk => count[10].CLK
+clk => count[11].CLK
+clk => count[12].CLK
+clk => count[13].CLK
+clk => count[14].CLK
+clk => count[15].CLK
+clk => count[16].CLK
+clk => count[17].CLK
+clk => count[18].CLK
+clk => count[19].CLK
+clk => count[20].CLK
+clk => count[21].CLK
+clk => count[22].CLK
+clk => count[23].CLK
+clk => count[24].CLK
+clk => slow_clk~reg0.CLK
+reset => count[0].ACLR
+reset => count[1].ACLR
+reset => count[2].ACLR
+reset => count[3].ACLR
+reset => count[4].ACLR
+reset => count[5].ACLR
+reset => count[6].ACLR
+reset => count[7].ACLR
+reset => count[8].ACLR
+reset => count[9].ACLR
+reset => count[10].ACLR
+reset => count[11].ACLR
+reset => count[12].ACLR
+reset => count[13].ACLR
+reset => count[14].ACLR
+reset => count[15].ACLR
+reset => count[16].ACLR
+reset => count[17].ACLR
+reset => count[18].ACLR
+reset => count[19].ACLR
+reset => count[20].ACLR
+reset => count[21].ACLR
+reset => count[22].ACLR
+reset => count[23].ACLR
+reset => count[24].ACLR
+reset => slow_clk~reg0.ACLR
+slow_clk <= slow_clk~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Unit|FF:ff
+clk => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Unit|UpDown_counter:counter
+clk => alarm~reg0.CLK
+clk => pcount[0]~reg0.CLK
+clk => pcount[1]~reg0.CLK
+clk => pcount[2]~reg0.CLK
+clk => pcount[3]~reg0.CLK
+reset => alarm~reg0.ACLR
+reset => pcount[0]~reg0.ACLR
+reset => pcount[1]~reg0.ACLR
+reset => pcount[2]~reg0.ACLR
+reset => pcount[3]~reg0.ACLR
+updown => alarm.OUTPUTSELECT
+updown => pcount.OUTPUTSELECT
+updown => pcount.OUTPUTSELECT
+updown => pcount.OUTPUTSELECT
+updown => pcount.OUTPUTSELECT
+pcount[0] <= pcount[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pcount[1] <= pcount[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pcount[2] <= pcount[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pcount[3] <= pcount[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+alarm <= alarm~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Unit|flags:f
+pcount[0] => Equal0.IN2
+pcount[0] => Equal1.IN31
+pcount[1] => Equal0.IN1
+pcount[1] => Equal1.IN30
+pcount[2] => Equal0.IN0
+pcount[2] => Equal1.IN29
+pcount[3] => Equal0.IN31
+pcount[3] => Equal1.IN28
+empty <= empty.DB_MAX_OUTPUT_PORT_TYPE
+full <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Unit|Teller:t
+teller[0] => tcount.IN0
+teller[0] => tcount.IN0
+teller[0] => tcount.IN0
+teller[1] => tcount.IN1
+teller[1] => tcount.IN1
+teller[1] => tcount.IN0
+teller[2] => tcount.IN1
+teller[2] => tcount.IN1
+teller[2] => tcount.IN1
+tcount[0] <= tcount.DB_MAX_OUTPUT_PORT_TYPE
+tcount[1] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Unit|waiting_time:wt
+pcount[0] => Decoder0.IN5
+pcount[1] => Decoder0.IN4
+pcount[2] => Decoder0.IN3
+pcount[3] => Decoder0.IN2
+tcount[0] => Decoder0.IN1
+tcount[1] => Decoder0.IN0
+wtime[0] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+wtime[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+wtime[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+wtime[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+wtime[4] <= wtime.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Unit|seg:d1
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+display[0] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+display[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+display[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+display[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+display[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+display[5] <= display.DB_MAX_OUTPUT_PORT_TYPE
+display[6] <= display.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Unit|seg:d2
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+display[0] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+display[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+display[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+display[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+display[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+display[5] <= display.DB_MAX_OUTPUT_PORT_TYPE
+display[6] <= display.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Unit|seg:d3
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+display[0] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+display[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+display[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+display[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+display[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+display[5] <= display.DB_MAX_OUTPUT_PORT_TYPE
+display[6] <= display.DB_MAX_OUTPUT_PORT_TYPE
+
+

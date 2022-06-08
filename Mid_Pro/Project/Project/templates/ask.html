@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}Inquiries page{% endblock %}
+
+
+{% block main%}
+    <div id = "disabled">
+    <div class="container" style="margin-bottom:25px; margin-top:1px;">
+        <h1 style="font-size:100px; color:rgba(236, 236, 236, 1.7);">Inquiries</h1>
+    </div>
+    <form action="/ask" method="post">
+        <div class="form-group">
+            <p style="font-size:15px; color:rgba(236, 236, 236, 1.7);">If you have any questions in general or want to give us feedback.<br>Leave your name and email address to get a reply from us.</p>
+        </div>
+        <div class="input-group mb-3">
+            <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text">
+        </div>
+        <div class="input-group mb-3">
+            <input autocomplete="off" autofocus class="form-control" name="email" placeholder="E-mail address" type="email" required>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="book">Your space</span>
+            <textarea class="form-control" name="description" placeholder="Write what you want here"></textarea>
+        </div>
+        <div class="container" style="margin-bottom:20px; margin-top:10px;"><button>Submit</button></div>
+        <div class="form-group">
+            <p style="font-size:15px; color:white;">We wish you always be in a good health.</p>
+        </div>
+    </form>
+    </div>
+{% endblock %}

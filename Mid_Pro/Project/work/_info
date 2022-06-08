@@ -1,0 +1,470 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\12.1sp1\modelsim_ase
+vcounter
+Z1 !s100 ]G>T7bOfmPT:VPhDO`X550
+Z2 IFAV8THVYQ0WJ4BKloam470
+Z3 V[K^I@IT1mTg;cXX6EUbja0
+Z4 dC:\Users\User\Downloads\project
+Z5 w1649329914
+Z6 8C:/Users/User/Downloads/project/UpDown_counter.v
+Z7 FC:/Users/User/Downloads/project/UpDown_counter.v
+L0 1
+Z8 OV;L;10.1b;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/User/Downloads/project/UpDown_counter.v|
+Z10 o-work work -O0
+Z11 !s108 1649331354.425000
+Z12 !s107 C:/Users/User/Downloads/project/UpDown_counter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcounter_t
+Z13 I_V@F>jB<65`kO9iG98RnL3
+Z14 V[D]2UO]3]U5<JHob=n1D<0
+Z15 dD:\Study\Faculty G2\FFinal\Project
+Z16 w1650910287
+Z17 8D:/Study/Faculty G2/FFinal/Project/UpDown_counter.v
+Z18 FD:/Study/Faculty G2/FFinal/Project/UpDown_counter.v
+L0 49
+R8
+r1
+31
+Z19 !s108 1651078993.146000
+Z20 !s107 D:/Study/Faculty G2/FFinal/Project/UpDown_counter.v|
+Z21 !s90 -reportprogress|300|-work|work|D:/Study/Faculty G2/FFinal/Project/UpDown_counter.v|
+R10
+!i10b 1
+Z22 !s100 0SVRZAaDFzC2=ieh3e;=d3
+!s85 0
+!s101 -O0
+vFF
+Z23 IGFM[8K?>hnBhKMHnAG<980
+Z24 VeN:K6PRd:WWLK=A;i:CR^1
+R15
+Z25 w1650798274
+Z26 8D:/Study/Faculty G2/FFinal/Project/FF.v
+Z27 FD:/Study/Faculty G2/FFinal/Project/FF.v
+L0 3
+R8
+r1
+31
+R10
+n@f@f
+Z28 !s100 Q1gJLKTaEI:bTi5E_nAze1
+Z29 !s108 1651078989.823000
+Z30 !s107 D:/Study/Faculty G2/FFinal/Project/FF.v|
+Z31 !s90 -reportprogress|300|-work|work|D:/Study/Faculty G2/FFinal/Project/FF.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vflags
+Z32 Io[<@>5EEE<MhLa<:>bLN_2
+Z33 VPGKbD`dWIeTRGNShn_MHh0
+R15
+R25
+Z34 8D:/Study/Faculty G2/FFinal/Project/flags.v
+Z35 FD:/Study/Faculty G2/FFinal/Project/flags.v
+L0 2
+R8
+r1
+31
+Z36 !s108 1651078989.998000
+Z37 !s107 D:/Study/Faculty G2/FFinal/Project/flags.v|
+Z38 !s90 -reportprogress|300|-work|work|D:/Study/Faculty G2/FFinal/Project/flags.v|
+R10
+Z39 !s100 0EaYN4_fHKn>XJBi=Y4ch1
+!i10b 1
+!s85 0
+!s101 -O0
+vflags_t
+Z40 Ik]G3hl=jzjOS`_aI2R0NM0
+Z41 V@79fY[l@AQh^LDo>n8ih@0
+R15
+R25
+R34
+R35
+L0 28
+R8
+r1
+31
+R36
+R37
+R38
+R10
+Z42 !s100 P7Q[b]AWSmn=2VUlPhZ2F0
+!i10b 1
+!s85 0
+!s101 -O0
+vseg
+Z43 ID^?=fBcijHReSbG6=b3?02
+Z44 V891jb7g=LjDI:ood9aedI1
+R15
+Z45 w1650965016
+Z46 8D:/Study/Faculty G2/FFinal/Project/7Seg.v
+Z47 FD:/Study/Faculty G2/FFinal/Project/7Seg.v
+L0 2
+R8
+r1
+31
+Z48 !s108 1651078989.480000
+Z49 !s107 D:/Study/Faculty G2/FFinal/Project/7Seg.v|
+Z50 !s90 -reportprogress|300|-work|work|D:/Study/Faculty G2/FFinal/Project/7Seg.v|
+R10
+Z51 !s100 ooGR]Wf:6ATkibh2az;532
+!i10b 1
+!s85 0
+!s101 -O0
+vseg_t
+Z52 I0<[Zd4E0VVk<6g=FWNeI23
+Z53 Vb>^0YiJd[WIOAMA_U5j`E3
+R15
+R45
+R46
+R47
+L0 24
+R8
+r1
+31
+R48
+R49
+R50
+R10
+Z54 !s100 X21P>Q33`U`0ML]ABXoco1
+!i10b 1
+!s85 0
+!s101 -O0
+vsevensegment
+Z55 IlS7j2dN`8W?:J6?Ldi9iU2
+Z56 VTn65;kfGK`FVQJ9`lF6DW0
+Z57 dD:\Study\Faculty G2\CA project
+Z58 w1649236182
+Z59 8D:/Study/Faculty G2/CA project/7Seg.v
+Z60 FD:/Study/Faculty G2/CA project/7Seg.v
+L0 1
+R8
+r1
+31
+Z61 !s90 -reportprogress|300|-work|work|D:/Study/Faculty G2/CA project/7Seg.v|
+R10
+Z62 !s100 5RX_;;Ef6d4]WViiz;6;f2
+Z63 !s108 1649264756.854000
+Z64 !s107 D:/Study/Faculty G2/CA project/7Seg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vslowClock
+Z65 I^bH3LJgE[J[JOQ=BbFM4M0
+Z66 V=5mbKR1Bb0T2C[Wj^dd:V0
+R15
+R25
+Z67 8D:/Study/Faculty G2/FFinal/Project/slowClock.v
+Z68 FD:/Study/Faculty G2/FFinal/Project/slowClock.v
+L0 3
+R8
+r1
+31
+R10
+Z69 nslow@clock
+Z70 !s100 Rd5ZVU_kA6Ga8ZRDoL1In1
+Z71 !s108 1651078990.249000
+Z72 !s107 D:/Study/Faculty G2/FFinal/Project/slowClock.v|
+Z73 !s90 -reportprogress|300|-work|work|D:/Study/Faculty G2/FFinal/Project/slowClock.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTaller
+Z74 IOk6_YacYozza9bBiVZB_i1
+Z75 V>_71@EED[Q7co1hCPe`2d2
+R57
+R58
+Z76 8D:/Study/Faculty G2/CA project/Teller.v
+Z77 FD:/Study/Faculty G2/CA project/Teller.v
+L0 1
+R8
+r1
+31
+R10
+Z78 n@taller
+Z79 !s100 c`eWL@9S`5LCJlPzZ7KTG2
+Z80 !s108 1649264756.473000
+Z81 !s107 D:/Study/Faculty G2/CA project/Teller.v|
+Z82 !s90 -reportprogress|300|-work|work|D:/Study/Faculty G2/CA project/Teller.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTeller
+Z83 I8`4^6[QS>Gg<QPeQ88RI;1
+Z84 VHbXNVTaT;h_ToeE9aoN:@0
+R15
+R25
+Z85 8D:/Study/Faculty G2/FFinal/Project/Teller.v
+Z86 FD:/Study/Faculty G2/FFinal/Project/Teller.v
+L0 3
+R8
+r1
+31
+Z87 !s108 1651078990.475000
+Z88 !s107 D:/Study/Faculty G2/FFinal/Project/Teller.v|
+Z89 !s90 -reportprogress|300|-work|work|D:/Study/Faculty G2/FFinal/Project/Teller.v|
+R10
+Z90 n@teller
+Z91 !s100 :UcfHzE0mMMbn7MUU?N_e2
+!i10b 1
+!s85 0
+!s101 -O0
+vteller_t
+Z92 IP_BI@oke@I@>b4PT6LLS`3
+Z93 V34lXTl^5:O_jc>G48fCnm0
+Z94 dC:\Users\Menna\Downloads\Project
+Z95 w1650511938
+Z96 8C:/Users/Menna/Downloads/Project/Teller.v
+Z97 FC:/Users/Menna/Downloads/Project/Teller.v
+L0 17
+R8
+r1
+31
+Z98 !s108 1650511943.379000
+Z99 !s107 C:/Users/Menna/Downloads/Project/Teller.v|
+Z100 !s90 -reportprogress|300|-work|work|C:/Users/Menna/Downloads/Project/Teller.v|
+R10
+Z101 !s100 KRibWg9LR?o0l5_EX9YKg3
+!i10b 1
+!s85 0
+!s101 -O0
+vTeller_t
+Z102 Ifc>B>^<iA2n]ER5P>EJl01
+Z103 VCS5jg4k4aeI6N=BVm@Qao0
+R15
+R25
+R85
+R86
+L0 17
+R8
+r1
+31
+R87
+R88
+R89
+R10
+Z104 n@teller_t
+Z105 !s100 kQ8k?G4d@dfCh_D]SoeMe0
+!i10b 1
+!s85 0
+!s101 -O0
+vtwodigit
+Z106 I414V0^F55Mc>8@SMb1lUP3
+Z107 Vebh8@3X3i:64]QdezQ@QN3
+R4
+Z108 w1649328398
+Z109 8C:/Users/User/Downloads/project/twodigit.v
+Z110 FC:/Users/User/Downloads/project/twodigit.v
+L0 1
+R8
+r1
+31
+Z111 !s90 -reportprogress|300|-work|work|C:/Users/User/Downloads/project/twodigit.v|
+R10
+Z112 !s100 2E>3PR61L=bmSI7H8c78]1
+Z113 !s108 1649328770.301000
+Z114 !s107 C:/Users/User/Downloads/project/twodigit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vUnit
+Z115 Iz<MH^amahb8`mQ8<aBYZQ1
+Z116 V5g;XSSH[29_OG0JSWS@FS0
+R15
+Z117 w1650968427
+Z118 8D:/Study/Faculty G2/FFinal/Project/Unit.v
+Z119 FD:/Study/Faculty G2/FFinal/Project/Unit.v
+L0 2
+R8
+r1
+31
+R10
+Z120 n@unit
+Z121 !s100 @e6HIR9gWL8E8<aPfJXK=0
+Z122 !s108 1651078992.946000
+Z123 !s107 D:/Study/Faculty G2/FFinal/Project/Unit.v|
+Z124 !s90 -reportprogress|300|-work|work|D:/Study/Faculty G2/FFinal/Project/Unit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vunit
+Z125 !s100 Qz0KO`f]NT<VLV8bD09RR0
+Z126 IJL[H<NnJIRJ@^L>ULIP4>0
+Z127 VU96H>0KX>YNFRFS;6f_4o1
+R4
+Z128 w1649331032
+Z129 8C:/Users/User/Downloads/project/Unit.v
+Z130 FC:/Users/User/Downloads/project/Unit.v
+L0 1
+R8
+r1
+31
+Z131 !s90 -reportprogress|300|-work|work|C:/Users/User/Downloads/project/Unit.v|
+R10
+Z132 !s108 1649331354.381000
+Z133 !s107 C:/Users/User/Downloads/project/Unit.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vunit_t
+Z134 !s100 5n]9cOzGO7nRJaJzK:Z331
+Z135 I^W^l>RC@U^1cQ8HoW^ORz0
+Z136 V1R>_[LDf@b_>g8;blmo7<1
+R94
+Z137 w1650743676
+Z138 8C:/Users/Menna/Downloads/Project/Unit.v
+Z139 FC:/Users/Menna/Downloads/Project/Unit.v
+L0 52
+R8
+r1
+31
+Z140 !s108 1650744830.748000
+Z141 !s107 C:/Users/Menna/Downloads/Project/Unit.v|
+Z142 !s90 -reportprogress|300|-work|work|C:/Users/Menna/Downloads/Project/Unit.v|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vUnit_test
+Z143 I[0<cC_iRB95]RDS`HSHi72
+Z144 Vdgd=QV7PIPmLj[aj;7JC:1
+R15
+Z145 w1650968535
+Z146 8D:/Study/Faculty G2/FFinal/Project/test_unit.v
+Z147 FD:/Study/Faculty G2/FFinal/Project/test_unit.v
+L0 2
+R8
+r1
+31
+Z148 !s108 1651078990.759000
+Z149 !s107 D:/Study/Faculty G2/FFinal/Project/test_unit.v|
+Z150 !s90 -reportprogress|300|-work|work|D:/Study/Faculty G2/FFinal/Project/test_unit.v|
+R10
+Z151 n@unit_test
+Z152 !s100 VCf@N@lVU5h^d5GP@4NEO0
+!i10b 1
+!s85 0
+!s101 -O0
+vunit_test_t
+Z153 I0HV1e_[O0A^i8QEPXD<Fl2
+Z154 VdQS2XJEjEiH=E]I25>7[@3
+R15
+R145
+R146
+R147
+L0 41
+R8
+r1
+31
+R148
+R149
+R150
+R10
+Z155 !s100 5SlW2JI`96B6FBVDMzPm22
+!i10b 1
+!s85 0
+!s101 -O0
+vUpDown_counter
+Z156 I=U2gL4>eR`0R10LT5iM551
+Z157 VK_A0C>_k4HkG:k?4T1PcB1
+R15
+R16
+R17
+R18
+L0 2
+R8
+r1
+31
+R19
+R20
+R21
+R10
+Z158 n@up@down_counter
+!i10b 1
+Z159 !s100 =[]hL?W;74TdA:5<n5_<L3
+!s85 0
+!s101 -O0
+vUpDownCounter
+Z160 Il>WJKOE0bJKa;XCYaU=4@1
+Z161 V``oiD>gK1ho`GfO[K>2Aa1
+R57
+Z162 w1649192534
+Z163 8D:/Study/Faculty G2/CA project/Up_Down_Counter.v
+Z164 FD:/Study/Faculty G2/CA project/Up_Down_Counter.v
+L0 1
+R8
+r1
+31
+R10
+Z165 n@up@down@counter
+Z166 !s100 YKeo>FodT^VnKR]cQ8e:a0
+Z167 !s108 1649192534.705000
+Z168 !s107 D:/Study/Faculty G2/CA project/Up_Down_Counter.v|
+Z169 !s90 -reportprogress|300|-work|work|D:/Study/Faculty G2/CA project/Up_Down_Counter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vwaiting_time
+!i10b 1
+!s100 IVW^4b:CFd?6kO=<Y3S^:2
+InmT97_dW1j8WDmdJBSL033
+Z170 VQRb`OA4e7oHG;e[?9j@h<2
+R15
+Z171 w1650968434
+Z172 8D:/Study/Faculty G2/FFinal/Project/wtime.v
+Z173 FD:/Study/Faculty G2/FFinal/Project/wtime.v
+L0 2
+R8
+r1
+!s85 0
+31
+Z174 !s108 1651078993.511000
+Z175 !s107 D:/Study/Faculty G2/FFinal/Project/wtime.v|
+Z176 !s90 -reportprogress|300|-work|work|D:/Study/Faculty G2/FFinal/Project/wtime.v|
+!s101 -O0
+R10
+vwaiting_time_t
+Z177 IY@FAiO@VYXM_FBW[Vm[e43
+Z178 VAC^9>>_mDX@K^<ek<zmN81
+R94
+Z179 w1650516690
+Z180 8C:/Users/Menna/Downloads/Project/wtime.v
+Z181 FC:/Users/Menna/Downloads/Project/wtime.v
+L0 40
+R8
+r1
+31
+Z182 !s108 1650516699.002000
+Z183 !s107 C:/Users/Menna/Downloads/Project/wtime.v|
+Z184 !s90 -reportprogress|300|-work|work|C:/Users/Menna/Downloads/Project/wtime.v|
+R10
+Z185 !s100 5mJ0c8FhdAPk6QY:4aU`b0
+!i10b 1
+!s85 0
+!s101 -O0
+vwtime_t
+!i10b 1
+!s100 bD2OaD40K[k1>g<V<TOR[0
+I^7QcYi56bJn[Y_E2dMc:W1
+Z186 V6[zX]34bN<Bco@iKj997`2
+R15
+R171
+R172
+R173
+L0 43
+R8
+r1
+!s85 0
+31
+R174
+R175
+R176
+!s101 -O0
+R10

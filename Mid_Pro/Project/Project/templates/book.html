@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}Booking page{% endblock %}
+
+{% block main%}
+    <div id = "disabled">
+    <div class="container" style="margin-bottom:25px; margin-top:1px;">
+        <h1 style="font-size:100px; color:white;">Booking</h1>
+    </div>
+    <form action="/book" method="post">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="book">First and last name</span>
+            <input type="text" name="first_name" class="form-control" placeholder="First name" autocomplete=off>
+            <input type="text" name="last_name" class="form-control" placeholder="Last name" autocomplete=off>
+        </div>
+        <div class="input-group mb-3 flex-nowrap">
+            <span class="input-group-text" id="book">@</span>
+            <input type="email" class="form-control" placeholder="E-mail adress" name="email" required autocomplete=off>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="book">Phone number</span>
+            <input type="number" class="form-control" name="phone_number" placeholder="Phone number" autocomplete=off>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="book">Day and month</span>
+            <input type="number" name="day" class="form-control" placeholder="Day" min="1" max="31" autocomplete=off>
+            <input type="number" name="month" class="form-control" placeholder="Month" min="1" max="12" autocomplete=off>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="book">Describe your case</span>
+            <textarea class="form-control" name="description" placeholder="Write here also any extra notes" autocomplete=off></textarea>
+        </div>
+        <div>
+            <label style="border; font-size: 18px !important;">Select a time:</label>
+            <input id="time" type="time" name="time">
+        </div>
+        <div class="container" style="margin-bottom:20px;"><button>Book</button></div>
+        <div class="form-group">
+            <p style="font-size:15px; color:white;">We wish you always be in a good health.</p>
+        </div>
+    </form>
+    </div>
+{% endblock %}

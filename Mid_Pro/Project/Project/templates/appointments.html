@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %} My appointments {% endblock %}
+
+{% block main %}
+    <div id="disabled">
+    <div class="container" style="margin-bottom:40px; margin-top:1px;">
+        <h1 style="font-size:100px; color:white;">Appointments</h1>
+    </div>
+    <table class="table table-sm bg-light" style="color:rgba(0,51,102, 0.9);">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Reservation Number</th>
+      <th scope="col">Time</th>
+      <th scope="col">Day/Month</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for row in rows %}
+    <tr>
+      <td></td>
+      <td> {{ row.name }} </td>
+      <td> {{ row.id }} </td>
+      <td> {{ row.time }} </td>
+      <td>{{row.month}}/{{row.day}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+    </table>
+    </div>
+
+{% endblock %}

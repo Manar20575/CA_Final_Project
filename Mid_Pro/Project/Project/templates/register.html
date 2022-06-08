@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}Register page{% endblock %}
+
+
+{% block main%}
+    <div id = "disabled">
+    <div class="container" style="margin-bottom:25px; margin-top:1px;">
+        <h1 style="font-size:100px; color:rgba(236, 236, 236, 1.7);">Registration</h1>
+    </div>
+    <form action="/register" method="post">
+        <div class="form-group">
+            <p style="font-size:15px; color:rgba(236, 236, 236, 1.7);">Complete your info to discover our options <br> and to find a better place to treat you.</p>
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text" autocomplete=off>
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="password" placeholder="Password" type="password" autocomplete=off>
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="confirmation" placeholder="Confirm your password" type="password" autocomplete=off>
+        </div>
+        <label class="radio-inline">
+            <input type="radio" name="gender" value="Female">Female</label>
+        <label class="radio-inline">
+            <input type="radio" name="gender" value="Male">Male</label>
+        <label class="radio-inline">
+            <input type="radio" name="gender" value="Prefer not to say">Prefer not to say</label>
+        <div class="container" style="margin-bottom:20px; margin-top:10px;"><button>Register</button></div>
+        <div class="form-group">
+            <p style="font-size:15px; color:white;">We wish you always be in a good health.</p>
+        </div>
+    </form>
+    <div class="form-group">
+        <p style="font-size:15px; color:white;"><u><a href="/" style="color:rgba(236, 236, 236, 1.7);">Go back to homepage</a></u></p>
+    </div>
+    </div>
+{% endblock %}
