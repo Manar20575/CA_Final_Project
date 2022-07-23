@@ -4,5 +4,6 @@ Implementing an embedded system inside a bank which monitors the clients queue i
 # Final_Pro
 In this project, you are going to model the operation of BBqMTM in C Language. Then translate some parts to MIPS assembly language and verify it via simulation utilizing Single-Cycle MIPS processor
 
-#Team members
+# Team members
+Manar Hamada, Menna Omran,  and Mona Hamdy
 
